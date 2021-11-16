@@ -1,0 +1,15 @@
+<button (click)="scrollFn(portfolio)" #portfoliobtn hidden></button>
+<div #portfolio>
+<div class="d-flex justify-content-center" *ngIf=portfoliocontent>
+    <h1 class="tiresHead">{{portfoliocontent.data[0].title}}</h1>
+</div>
+<div class="d-flex justify-content-center"  *ngIf=portfoliocontent>
+    <span class="baseStyle">{{portfoliocontent.data[0].sub_title}}</span>
+</div>
+<div>
+    <hr class="container">
+</div>
+<div class="container mt-5 marginbtm">
+    <app-portfoliocontent></app-portfoliocontent>
+</div>
+</div>

@@ -1,0 +1,63 @@
+
+$back-color: #950f25;
+.usericon{
+    font-size: 28px;
+    color: $back-color;
+}
+.card{
+    background-color: rgb(2 2 2) !important;
+    color: #ffff;
+    font-size: 17px;
+    letter-spacing: 2px;
+    // border-radius: 50%;
+    // padding: 1rem;
+    // box-shadow:-1px -1px 12px 12px  #0e0e0e;
+    // height: 100%;
+    border-radius: 25px !important;
+    // padding: 2%;
+}
+.blogcontent{
+    color: #b5aeae;
+    font-size: 13px; 
+    letter-spacing: 2px;
+    margin-top: 3%;
+}
+.divstyle{
+    width: 100%; 
+    height: 20px;  
+    text-align: left;
+    margin-bottom: 5%;
+    margin-top: 5% !important;
+}
+.spancontent{
+    border-bottom: 2px solid #950f25;
+    color:black 
+}
+.spanline{
+    color: white; 
+    border-bottom: 5px solid #000;
+    font-style: italic;
+    font-size: 14px;
+    padding-left: 2%;
+}
+.contenthead{
+    font-weight: bold;
+    color: #FFFF;
+}
+.contentstyl{
+     border-bottom:  1px solid #FFF !important;
+     border-left:  1px solid #FFF !important;
+     border-right:  1px solid #FFF !important;
+     padding: 2%;
+     border-bottom-left-radius: 5%;
+     border-bottom-right-radius: 5%;
+}
+// .img{
+//     border-top-left-radius: 5% !important;
+//     border-top-right-radius: 50%;
+// }
+img, svg {
+    vertical-align: middle;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}

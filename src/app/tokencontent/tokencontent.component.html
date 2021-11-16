@@ -1,0 +1,14 @@
+<div class="row pagemargin" *ngIf=tokencontent>
+    <div class="col-md-6" *ngFor="let data of tokencontent.data[0].token_utility" style="padding: 1.5rem;">
+        <div class="card">
+            <div class="row">
+                <div class="col-md-2 d-flex justify-content-center" style="margin-top: 10%;"><i
+                        class="fa" [ngClass]="data.icon"></i></div>
+                <div class="col-md-10">
+                    <div class="tokenhead">{{data.title}}</div>
+                    <div>{{data.description}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+<div *ngIf=tokencontent>
+<div class="d-flex justify-content-center">
+    <h1 class="tokenHead">{{tokencontent.data[0].title}}</h1>
+</div>
+<div class="d-flex justify-content-center">
+    <span class="baseStyle">{{tokencontent.data[0].sub_title}}</span>
+</div>
+<div>
+    <hr class="container">
+</div>
+<div class="container">
+    <app-tokencontent></app-tokencontent>
+</div>
+</div>

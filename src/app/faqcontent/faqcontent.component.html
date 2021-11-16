@@ -1,0 +1,10 @@
+<div *ngIf=tierscontent>
+<div class="card-body mt-4 cardbody" *ngFor="let faq of tierscontent.data;let i = index" >
+    <h3 class="card-title"  style="color: #FFFF;"  [attr.data-bs-target]="'#demo'+i" data-bs-toggle="collapse" (click)="Toggle(i)">
+        <button class="btn cardstyle"   ><i
+             [ngClass]="faq.isToggle ? 'fa fa-minus toggleIcons' : 'fa fa-plus toggleIcons'"></i></button>
+       {{faq.question}}
+    </h3>
+    <p class="card-text" [attr.id]="'demo'+i" class="collapse" style="margin-left: 5%;color: #FFFF;">{{faq.answer}}</p>
+</div>
+</div>

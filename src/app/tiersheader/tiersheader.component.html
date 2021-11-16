@@ -1,0 +1,13 @@
+
+<div class="d-flex justify-content-center" *ngIf=tierscontent>
+    <h1 class="tiresHead">{{tierscontent.data[0].title}}</h1>
+</div>
+<div class="d-flex justify-content-center" *ngIf=tierscontent>
+    <span class="baseStyle">{{tierscontent.data[0].sub_title}}</span>
+</div>
+<div>
+    <hr class="container">
+</div>
+<div class="container">
+    <app-tierscontent></app-tierscontent>
+</div>

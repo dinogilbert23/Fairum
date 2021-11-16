@@ -1,0 +1,16 @@
+<button (click)="scrollFn(home)" #homebtn hidden></button>
+<div #home >
+<div class="contenthead " *ngIf=splitedHeader>{{splitedHeader[0]}}<br>{{splitedHeader[1]}}</div>
+<div  class="content text-center" style="letter-spacing: 2px;" *ngIf=slidercontent>{{slidercontent.data[0].description}}</div>
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-sm-8 mt-4 d-flex justify-content-center">
+        <!-- <div class=" pull-right"> -->
+            <button class="btn col-sm-2 mx-2 homebtns p-3 ">User Guide</button>
+        <!-- </div> -->
+        <!-- <div class="col-sm- pull-left"> -->
+            <button class="btn homebtns col-sm-2 mx-2">Our Portfolio</button>
+        <!-- </div> -->
+    </div>
+</div>
+</div>

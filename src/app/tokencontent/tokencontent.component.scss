@@ -1,0 +1,29 @@
+
+$back-color: #950f25;
+.usericon{
+    font-size: 28px;
+    color: $back-color;
+}
+.card{
+    background-color: rgb(2 2 2) !important;
+    color: #ffff;
+    font-size: 17px;
+    letter-spacing: 2px;
+    padding: 1rem;
+    box-shadow:-1px -1px 12px 12px  #0e0e0e;
+    height: 100%;
+    border-radius: .7rem;
+}
+.tokenhead{
+    font-size: 26px;
+     color: #FFFF;
+     font-weight: bold;
+     background-color: #0000 !important;
+     letter-spacing: 2px;
+     margin-bottom: 5%;
+     margin-top: 3%;
+    //  font-weight: bold;
+}
+.pagemargin{
+    margin-bottom: 6%;
+}

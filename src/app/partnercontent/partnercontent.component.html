@@ -1,0 +1,7 @@
+<div class="row" *ngFor="let data of portfolio; let i = index" >
+  <div [ngClass]="screenWidth"><img src="{{data.vabble}}" [ngClass]="{'reTopborder':(i==0),'reBotmborder':(i==2),'reBotmcenter':(i==1)}"></div>
+  <div [ngClass]="screenWidth"><img src="{{data.vabble}}" [ngClass]="{'reTopborder':(i==0),'reBotmborder':(i==2),'reBotmcenter':(i==1)}"></div>
+  <div [ngClass]="screenWidth"><img src="{{data.vabble}}" [ngClass]="{'reTopborder':(i==0),'reBotmborder':(i==2),'reBotmcenter':(i==1)}"></div>
+  <div [ngClass]="screenWidth"><img src="{{data.vabble}}" [ngClass]="{'reTopborder':(i==0),'reBotmborder':(i==2),'reBotmcenter':(i==1)}"></div>
+  <div [ngClass]="screenWidth"><img src="{{data.vabble}}" [ngClass]="{'lastTopborder':(i==0),'lastBotmborder':(i==2),'lastBotmcenter':(i==1)}"></div>
+</div>   

@@ -1,0 +1,53 @@
+.reTopborder{
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 2px solid #950f25;
+    border-right: 2px solid #950f25;
+    width: 100%;
+}
+.reBotmborder{
+    border-bottom: 0;
+    border-right: 2px solid #950f25;
+    width: 100%;
+}
+.reBotmcenter{
+    border-bottom: 2px solid #950f25;
+    border-right: 2px solid #950f25;
+    width: 100%;
+}
+.col{
+    padding: 0;
+}
+.reRightborder{
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 2px solid #950f25;
+    border-right: 0;
+    width: 100%;
+}
+
+
+.lastBotmborder{
+    // border-bottom: 2px solid #950f25;
+    border-right: 0;
+    width: 100%;
+}
+.lastBotmcenter{
+    border-bottom: 2px solid #950f25;
+    border-right: 0;
+    width: 100%;
+}
+.lastRightborder{
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 2px solid #950f25;
+    border-right: 0;
+    width: 100%;
+}
+.lastTopborder{
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 2px solid #950f25;
+    // border-right: 2px solid #950f25;
+    width: 100%;
+}

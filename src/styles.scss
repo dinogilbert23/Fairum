@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+$back-color-btn: rgb(139, 7, 7);
+$back-color: #950f25;
+$color: #FFFF;
+// $border-dark: rgba($base-color, 0.88);
+
+.font{
+font-size: 12px;
+color: #ffff;
+padding: 15% 0 0 0;
+}
+.tokenbtn{
+    background-color: $back-color-btn;
+    font-size: 12px;
+    color: #ffff;
+    justify-content: center;
+    left: 10%;
+}
+.homebtns{
+    background-color: rgb(3, 0, 0);
+    font-size: 12px;
+    color: #ffff;
+    border-color: $back-color; 
+    letter-spacing: 2px;
+}
+.growingnetwork{
+    background-color: $back-color;
+    color: #ffff;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding: 2% 0px 3% 0;
+    // border-top-left-radius: .5rem;
+    border-radius: .5rem;
+    box-shadow: 10px 10px 5px #0e0e0e;
+}
+
+.bd-navbar {
+    position: sticky !important;
+}
+.fairumbtn{
+    background-color: $back-color !important;
+    color: #FFFF;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.baseStyle{
+    color: $color;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+hr {
+    border: 2px solid $back-color !important;
+    background-color: $back-color !important;
+    // border-color: rgb(139, 7, 7);
+}
+a{
+    cursor: pointer;
+}

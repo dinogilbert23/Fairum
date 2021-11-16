@@ -1,0 +1,37 @@
+.sect1 {  
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/images/network.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center; 
+} 
+.homecontent{
+    color: #ffff;
+    font-size: 12px;
+}
+ul li a {
+    color: #ffff;
+    font-size: 12px;
+}
+
+ul li a:hover {
+    color: rgb(139, 7, 7);
+    font-size: 12px;
+    text-decoration:underline;
+}
+.toggleIcons{
+    color: #ffff; 
+    font-size: 26px;
+}
+.logotop{
+    float: left;
+     width: 61px !important; 
+     position: relative !important;
+     top: 0px !important;
+}
+.fulllogo{
+    max-width:100%; 
+    float: left;
+    left: 10% !important;
+}

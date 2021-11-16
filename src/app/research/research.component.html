@@ -1,0 +1,18 @@
+
+<div class="row mt-4 pagemargin" *ngIf=researchcontent>
+    <div class="col-md-6 cardpadding" *ngFor="let research of researchcontent.data[0].serviceSection"> 
+        <div class="card cardstyle p-4 ">
+            <i class="fa fa-users usericon" [ngClass]="research.icon_name"></i>
+        <span class="advisor">{{research.title}}</span>
+        <i class="far fa-user-friends"></i>
+        <span class="fairumservice">{{research.description}}</span>
+    </div>
+    </div>
+    <!-- <div class="col-md-6 cardpadding"> 
+        <div class="card cardstyle p-4 ">
+            <i class="fa fa-cloud-upload usericon" ></i>
+        <span class="advisor">{{researchcontent.data[0].serviceSection[0].title}}</span>
+        <span class="fairumresearch">Our specialists are responsible for evaluating the source code of the various protocols and smart contracts in order to detect any flaws or weaknesses and to assess their resilience.</span>
+    </div>
+    </div> -->
+</div>

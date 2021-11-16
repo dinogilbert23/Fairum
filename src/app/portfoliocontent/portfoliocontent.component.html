@@ -1,0 +1,19 @@
+<!-- <div *ngIf=portfoliocontent>
+  <div class="row" *ngFor="let data of portfoliocontent.data[0].portfolio; let i = index" (window:resize)="onResize($event)"> -->
+<div class="row" *ngFor="let data of portfolio; let i = index" (window:resize)="onResize($event)">
+  <div [ngClass]="screenWidth">
+      <img src="{{data.vabble}}" [ngClass]="{'reTopborder':(i==0),'reBotmborder':(i==2),'reBotmcenter':(i==1)}">
+    </div>
+  <div [ngClass]="screenWidth">
+      <img src="{{data.vabble}}" [ngClass]="{'reTopborder':(i==0),'reBotmborder':(i==2),'reBotmcenter':(i==1)}">
+    </div>
+  <div [ngClass]="screenWidth">
+      <img src="{{data.vabble}}" [ngClass]="{'reTopborder':(i==0),'reBotmborder':(i==2),'reBotmcenter':(i==1)}">
+    </div>
+  <div [ngClass]="screenWidth">
+      <img src="{{data.vabble}}" [ngClass]="{'reTopborder':(i==0),'reBotmborder':(i==2),'reBotmcenter':(i==1)}">
+    </div>
+  <div [ngClass]="screenWidth">
+      <img src="{{data.vabble}}" [ngClass]="{'lastTopborder':(i==0),'lastBotmborder':(i==2),'lastBotmcenter':(i==1)}" style="margin-right: 0 !important;">
+    </div>
+</div>

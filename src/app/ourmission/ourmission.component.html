@@ -1,0 +1,28 @@
+
+<div *ngIf=missioncontent>
+    <button (click)="scrollFn(aboutus)" #aboutusbtn hidden>button</button>
+<div class="font container" #aboutus >
+    <span class="missionfont" >{{missioncontent.data[0].missionSection.title}}</span>
+    <div><span class="content">{{missioncontent.data[0].missionSection.sub_title}}</span> </div>
+    <div class="row">
+        <div class="col-md-9">
+            <hr class="line">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-9">
+            <span class="content">{{missioncontent.data[0].missionSection.description}} </span>
+        </div>
+        <div class="col-md-3">
+            <img src="../../assets/images/4380747.jpg" style="width: 100%; height: 85%;">
+        </div>
+    </div>
+
+    <button class="btn fairumbtn col-md-3 mt-4">{{missioncontent.data[0].missionSection.btn_name}}</button>
+    <div>
+        <div class="searchadvisor">
+            <app-research></app-research>
+        </div>
+    </div>
+</div>
+</div>
